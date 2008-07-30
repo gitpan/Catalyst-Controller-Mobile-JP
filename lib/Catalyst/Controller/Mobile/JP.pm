@@ -1,7 +1,7 @@
 package Catalyst::Controller::Mobile::JP;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw( Catalyst::Controller Class::Accessor::Fast );
 __PACKAGE__->mk_accessors(qw( encoding ));
